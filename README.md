@@ -33,7 +33,7 @@ var intervalMessage = setInterval(function(){message();},240000);
 
 function message(){
 var m, msgs;
-msgs = ["\o\ SUPERRRRRRRR /o/ FAN :star: ?", ":star: F :star: A :star: N :star: ?", " burinha preta :musical_note: FAN :star: 4 :star: FAN ?", "", ""];
+msgs = ["Se torne meu fã q retribui na hora :thumbsup: ", ":star: F :star: A :star: N :star: ?", " Torne-se meu fan :100: frescura ", "", ""];
 
 m = Math.floor(Math.random() * msgs.length);
 API.sendChat(msgs[m]); 
