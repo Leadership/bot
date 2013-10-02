@@ -1,13 +1,12 @@
-bot
-===
+$(document).ready(function(){
 
-bot plug.dl
 //When script loads
 API.sendChat(".")
 $('#button-vote-positive').click();
 
 //global var
 var total = 0;
+
 
 if (localStorage.usData === undefined) {
 localStorage.usData = JSON.stringify({
@@ -34,7 +33,7 @@ var intervalMessage = setInterval(function(){message();},240000);
 
 function message(){
 var m, msgs;
-msgs = ["\o\ SUPERRRRRRRR /o/ FAN :star: ?", ":star: F :star: A :star: N :star: ?", " tuts tuts tuts :musical_note: FAN :star: 4 :star: FAN ?", "", ""];
+msgs = ["\o\ SUPERRRRRRRR /o/ FAN :star: ?", ":star: F :star: A :star: N :star: ?", " burinha preta :musical_note: FAN :star: 4 :star: FAN ?", "", ""];
 
 m = Math.floor(Math.random() * msgs.length);
 API.sendChat(msgs[m]); 
