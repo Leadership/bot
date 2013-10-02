@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 //When script loads
-API.sendChat(".")
+API.sendChat(":arrows_counterclockwise:")
 $('#button-vote-positive').click();
 
 //global var
